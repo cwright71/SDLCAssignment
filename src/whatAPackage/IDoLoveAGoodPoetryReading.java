@@ -89,7 +89,7 @@ public class IDoLoveAGoodPoetryReading {
 		//Reverse, reverse! 5 hops this time! (really just swaps the order of the hash list so that it's biggest first. 
 		Collections.reverse(hashList);
 		//prints the top 10, though can be modified to print more or less :D 
-		for(int i = 0; i < 10; i++)
+		for(int i = 0; i < 20; i++)
 		{
 			System.out.println(hashList.get(i));
 		}
